@@ -55,7 +55,6 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Icon(Icons.add),
     );
   }
-
   OnDaySelected(DateTime selectedDay, DateTime focusedDay) {
     setState(() {
       this.selectedDay = selectedDay;
